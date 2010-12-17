@@ -1,17 +1,21 @@
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=2962
 
-A plugin for vim to ease navigation for projects that use the Lift Scala web
-framework. Heavily inspired by the awesome that is Tim Pope's rails.vim (at
-http://rails.vim.tpope.net/) .
+A plugin for vim to ease navigation for projects that use the Lift Scala web 
+framework. Heavily inspired by the awesome that is Tim Pope's rails.vim (at 
+http://rails.vim.tpope.net/) . 
 
-Currently provides a few commands:
+Currently provides a few commands: 
 
-* :Lmodel, Lsnippet, Lactor, Lcomet -- all take a class name and take you to
-  the appropriate associated file
-* :Lview -- takes a class name and takes you to the appropriate view file
-* :Lspec or :Ltest -- when called from a class (e.g., GroupSnip), takes you to
-  the associated test file (GroupSnipTest)
-* :Lclass -- the opposite of Lspec, takes you to the class for the current test
+* :Lmodel, Lsnippet, Lactor, Lcomet, Llib -- all take a class name and take you to 
+  the appropriate associated file 
+* :Lview -- takes a class name and takes you to the appropriate view file 
+* :Lspec or :Ltest -- when called from a class (e.g., GroupSnip), takes you to 
+  the associated test file (GroupSnipTest) 
+* :Lclass -- the opposite of Lspec, takes you to the class for the current test 
+* :Lboot -- takes you directly to Boot.scala 
+* :Lcss, Ljavascript, Lsass -- takes a filename and takes you to the appropriate file 
 
-The github repository for this lives at http://github.com/Shadowfiend/liftweb-vim/ ;
+All commands are properly autocompleted.
+
+The github repository for this lives at http://github.com/Shadowfiend/liftweb-vim/ ; 
 please file bugs at http://github.com/Shadowfiend/liftweb-vim/issues .
